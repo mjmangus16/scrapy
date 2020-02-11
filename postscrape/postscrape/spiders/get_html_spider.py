@@ -2,8 +2,9 @@ import scrapy
 import json
 
 # ACTIVATE VENV
-# --- cd into top postscrape folder
 # --- source venv/bin/activate
+# --- cd into top postscrape folder
+
 
 # RUN SCRAPER
 # --- scrapy crawl *name*
