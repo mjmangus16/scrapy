@@ -39,12 +39,3 @@ class PostsSpider(scrapy.Spider):
                 'title': d[1],
                 'inboundRating': f"{d[3]}/{d[4]}/{d[5]}/{d[6]}"
             }
-
-                    
-        # b = open("postscrape/spiders/inboundsData2.txt", 'a+')
-
-        # for l in allData1:
-        #     b.write(f"'{l}',\n")
-
-        # for l in allData2:
-        #     b.write(f"'{l}',\n")
